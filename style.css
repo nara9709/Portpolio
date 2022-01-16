@@ -534,3 +534,25 @@ p {
     height: 80px;
   }
 }
+/* Arrow up button */
+.btn__arrowup {
+  font-size: 40px;
+  text-align: center;
+  padding: 7px;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  background-color: var(--color-dark-peach);
+  color: var(--color-white);
+  border-radius: 50%;
+  top: 90%;
+  left: 90%;
+  opacity: 0;
+  pointer-events: none;
+  transform: opacity var(--animation-duration);
+}
+
+.btn__arrowup.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
