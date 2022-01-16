@@ -148,6 +148,11 @@ p {
   display: none;
 }
 
+.opacity {
+  opacity: 0;
+  transform: var(--animation-duration);
+}
+
 /* Home */
 
 #home {
