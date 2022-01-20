@@ -190,7 +190,7 @@ p {
 /* Section common */
 
 .section {
-  padding: 50px;
+  padding: 90px 50px 50px 50px;
   text-align: center;
   margin: auto;
 }
