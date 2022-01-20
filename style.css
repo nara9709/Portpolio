@@ -111,7 +111,7 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-peach);
-  padding: 5px;
+  padding: 16px;
 }
 
 .navbar__logo {
@@ -133,12 +133,12 @@ p {
 
 .navbar__menu__item:hover {
   border-color: var(--color-white);
-  background-color: var(--color-dark-pink);
+  background-color: var(--color-dark-peach);
 }
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 24px;
+  top: 20px;
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
@@ -411,6 +411,10 @@ p {
   transition: var(--animation-duration);
 }
 
+.project__descripton h3 {
+  font-weight: var(--weight-semi-bold);
+}
+
 .work__project,
 .project__descripton {
   border-radius: var(--size-border-radius);
@@ -430,9 +434,9 @@ p {
   display: block;
   position: relative;
   left: 50%;
-  width: 25px;
+  width: 100px;
   height: 2px;
-  margin-left: -12px;
+  transform: translateX(-50%);
   margin-top: 8px;
   background-color: var(--color-dark-white);
 }
@@ -510,15 +514,24 @@ p {
   .navbar__toggle-btn {
     display: block;
   }
+  .navbar__toggle-btn:hover {
+    cursor: pointer;
+  }
+
   #navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--color-peach);
   }
   .navbar__menu {
     flex-direction: column;
     text-align: center;
     width: 100%;
     display: none;
+  }
+
+  .navbar__menu.open {
+    display: block;
   }
 
   .about__majors {
