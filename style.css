@@ -553,7 +553,7 @@ p {
   }
   .navbar__toggle-btn {
     display: block;
-    top: 10px;
+    top: 16px;
     right: 16;
   }
   .navbar__toggle-btn:hover {
@@ -572,7 +572,7 @@ p {
   }
 
   #navbar.navbar--dark {
-    padding: 10px;
+    padding: 16px;
   }
   .navbar__menu {
     flex-direction: column;
