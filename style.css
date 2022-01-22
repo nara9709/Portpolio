@@ -111,7 +111,7 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-peach);
-  padding: 16px;
+  padding: 7px;
 }
 
 .navbar__logo {
@@ -131,6 +131,9 @@ p {
   border-radius: var(--size-border-radius);
 }
 
+.navbar__menu__item.active {
+  border: 1px solid var(--color-white);
+}
 .navbar__menu__item:hover {
   border-color: var(--color-white);
   background-color: var(--color-dark-peach);
@@ -551,7 +554,7 @@ p {
   }
   .navbar__toggle-btn {
     display: block;
-    top: 16px;
+    top: 8px;
     right: 16;
   }
   .navbar__toggle-btn:hover {
